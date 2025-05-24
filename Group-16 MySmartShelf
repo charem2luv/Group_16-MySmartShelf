@@ -9,9 +9,16 @@ Amen Girmawi Bush          UGR/9593/17
 
 
 MySmartShelf: Personal Book Tracker Using Sets and Dictionaries
-It is a basic book tracking program that helps user manage books they've read or want to read.
+
+##Project description
+
+MySmartShelf is a basic book tracking program that helps user manage books they've read or want to read.
 The user can add a book, mark it as read, and view their collection using sets and dictionaries.
 It uses conditional logic to prevent duplicate entries and lets users see how many unread books are left.
+The system prevents duplicate entries by checking if a book already exists before adding it.
+It also tracks the number of unread books, giving users a quick overview of their reading progress.
+MySmartShelf is a beginner-friendly project that demonstrates basic concepts in Python such as:
+conditional statements, user input handling, and data structures.
 
 ## Features
 
