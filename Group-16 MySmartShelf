@@ -20,7 +20,7 @@ It uses conditional logic to prevent duplicate entries and lets users see how ma
 **Low Stock Alerts**: Automatically notifies users when any item quantity drops below a set threshold.
 **Search Functionality**: Quickly find items by name or category.
 **Usage Summary**: View a basic report showing items usage trends and stock levels.
-Future improvements 
+## Future improvements 
 Barcode Scanner: Allow users to quickly add books by scanning barcodes.
 Autocomplete from Databases: Integrate with Google Books, Open Library, or Goodreads to auto-fill book details (title, author, cover, genre).
 Chapter Summaries: Auto-generate summaries for each chapter (AI-powered).
