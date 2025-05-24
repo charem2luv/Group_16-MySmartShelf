@@ -1,9 +1,22 @@
-# programming-project
+# MySmartShelf
 
-Group members and UGR
+## Group members and UGR
+
 Charmigoa Peter Bawar      UGR/2823/17
+Amen Girmawi Bush          UGR/9593/17
+
+
+
 
 MySmartShelf: Personal Book Tracker Using Sets and Dictionaries
 It is a basic book tracking program that helps user manage books they've read or want to read.
 The user can add a book, mark it as read, and view their collection using sets and dictionaries.
 It uses conditional logic to prevent duplicate entries and lets users see how many unread books are left.
+
+## Features
+
+**Add Items**: Users can add new items to the shelf with name, quantitiy, and category.
+**Edit or Remove Items**: Update item details or delete items from the list.
+**Low Stock Alerts**: Automatically notifies users when any item quantity drops below a set threshold.
+**Search Functionality**: Quickly find items by name or category.
+**Usage Summary**: View a basic report showing items usage trends and stock levels.
