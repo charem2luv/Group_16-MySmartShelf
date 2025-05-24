@@ -17,7 +17,10 @@ The user can add a book, mark it as read, and view their collection using sets a
 It uses conditional logic to prevent duplicate entries and lets users see how many unread books are left.
 The system prevents duplicate entries by checking if a book already exists before adding it.
 It also tracks the number of unread books, giving users a quick overview of their reading progress.
-MySmartShelf is a beginner-friendly project that demonstrates basic concepts in Python such as:
+if you are looking to read more book MySmartShelf will inform you if there is ony small amount of to read book left.
+On the other hand if you are looking for motivation to finish whats left you will be informed so you can keep it up.
+It works both ways in both scenarios.
+MySmartShelf is a beginner friendly project that demonstrates basic concepts in Python such as:
 conditional statements, user input handling, and data structures.
 
 ## Features
