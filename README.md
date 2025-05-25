@@ -38,10 +38,16 @@ conditional statements, user input handling, and data structures.
 ## Future improvements 
 
 Barcode Scanner: Allow users to quickly add books by scanning barcodes.
+
 Autocomplete from Databases: Integrate with Google Books, Open Library, or Goodreads to auto-fill book details (title, author, cover, genre).
+
 Chapter Summaries: Auto-generate summaries for each chapter (AI-powered).
+
 Advanced Filters: Sort by genre, author, rating, or custom tags.
+
 Genre/Author Insights: Show which genres/authors you read most.
+
 Goal Tracking: Set yearly/monthly reading goals with progress updates.
+
 Reading Time Estimator: Predict how long it’ll take to finish a book.
 
