@@ -17,7 +17,7 @@ Getachew  Eyayu            UGR/7874/17
 
 MySmartShelf: Personal Book Tracker Using Sets and Dictionaries
 
-##Project description
+## Project description
 
 MySmartShelf is a basic book tracking program that helps user manage books they've read or want to read.
 The user can add a book, mark it as read, and view their collection using sets and dictionaries.
