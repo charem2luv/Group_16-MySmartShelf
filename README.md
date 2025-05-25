@@ -15,7 +15,7 @@ Getachew  Eyayu            UGR/7874/17
 
 
 
-MySmartShelf: Personal Book Tracker Using Sets and Dictionaries
+# MySmartShelf: Personal Book Tracker Using Sets and Dictionaries
 
 ## Project description
 
@@ -121,6 +121,27 @@ They make it easy to map book titles to their reading status.
 Git is a version control system, and GitHub is a platform for sharing and collaborating on code.
 
 **Used for:**
-- Tracking project changes over time
-- Contributing through forks and pull requests
-- Collaborating with others efficiently
+Tracking project changes over time
+Contributing through forks and pull requests
+Collaborating with others efficiently
+
+### 5. Modular functions
+This project follows a modular programming approach by organizing the code into small, focused functions. Each function handles one specific task, which makes the code easier to read, maintain, and reuse.
+
+**Used for:**
+
+add_book(title) – Adds a book to the "to_read" list.
+
+edit_book(old_title, new_title) – Renames a book in either list.
+
+remove_book(title) – Removes a book from the collection.
+
+mark_as_read(title) – Moves a book from "to_read" to "read".
+
+search_book(title) – Checks where a book is stored.
+
+show_books() – Displays all books by category.
+
+usage_summary() – Prints the total count of books.
+
+low_stock_alert() – Warns when the reading list is nearly empty.
