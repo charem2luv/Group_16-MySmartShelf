@@ -8,6 +8,8 @@ Amen Girmawi Bush          UGR/9593/17
 
 Kaleab Leulseged           UGR/3533/17
 
+Yafet Demesew              UGR/8213/17
+
 
 
 
@@ -53,7 +55,10 @@ Genre/Author Insights: Show which genres/authors you read most.
 Goal Tracking: Set yearly/monthly reading goals with progress updates.
 
 Reading Time Estimator: Predict how long it’ll take to finish a book.
-##Set-Up Instructions 
+
+
+
+## Set-Up Instructions 
 
 Step 1: Install Python
 Download and install Python 3 from https://www.python.org/downloads/.
