@@ -26,9 +26,13 @@ conditional statements, user input handling, and data structures.
 ## Features
 
 **Add Items**: Users can add new items to the shelf with name, quantitiy, and category.
+
 **Edit or Remove Items**: Update item details or delete items from the list.
+
 **Low Stock Alerts**: Automatically notifies users when any item quantity drops below a set threshold.
+
 **Search Functionality**: Quickly find items by name or category.
+
 **Usage Summary**: View a basic report showing items usage trends and stock levels.
 
 ## Future improvements 
