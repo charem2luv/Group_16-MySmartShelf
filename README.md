@@ -10,6 +10,8 @@ Kaleab Leulseged           UGR/3533/17
 
 Yafet Demesew              UGR/8213/17
 
+Getachew  Eyayu            UGR/7874/17
+
 
 
 
@@ -86,3 +88,39 @@ In the terminal or command prompt, run the Python file using:
 python mysmartshelf.py
 You will see sample actions like adding, editing, removing, and searching for books printed in the terminal.
 
+## Technologies Used
+
+### 1. Python  
+Python is a high-level, beginner-friendly programming language used for building the entire logic of this project.  
+It handles input, output, and decision-making using built-in control structures.
+
+**In MySmartShelf, Python is used to:**
+- Build the book tracking features
+- Handle user inputs and print outputs
+- Control logic with conditionals and functions
+
+### 2. Sets  
+Sets are unordered collections of unique elements in Python.  
+They ensure that book titles are stored without duplication.
+
+**Used for:**
+- Storing unique book titles
+- Preventing duplicates
+- Efficient book lookup
+
+### 3. Dictionaries  
+Dictionaries store data in key-value pairs.  
+They make it easy to map book titles to their reading status.
+
+**Used for:**
+- Tracking book status (e.g., "Read", "Unread")
+- Updating book information quickly
+- Organizing data into categories
+  
+### 4. Git & GitHub  
+Git is a version control system, and GitHub is a platform for sharing and collaborating on code.
+
+**Used for:**
+- Tracking project changes over time
+- Contributing through forks and pull requests
+- Collaborating with others efficiently
