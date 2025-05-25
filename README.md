@@ -63,36 +63,26 @@ Reading Time Estimator: Predict how long it’ll take to finish a book.
 Step 1: Install Python
 Download and install Python 3 from https://www.python.org/downloads/.
 Make sure Python is added to your system's PATH.
----
+
 Step 2: Download the Project Code
 You can get the code in two ways:
 
 Option A: Clone the repository using Git
-
 git clone https://github.com/yourusername/MySmartShelf.git
 
 Option B: Download the ZIP file
 
 1. Go to the GitHub repository page.
-
 2. Click the Code button.
-
 3. Choose Download ZIP.
-
 4. Extract the ZIP file to a folder.
-
----
 
 Step 3: Open the Project Folder
 Use your terminal or command prompt to go into the folder where the code is saved:
-
 cd MySmartShelf
----
 
 Step 4: Run the Program
 In the terminal or command prompt, run the Python file using:
-
 python mysmartshelf.py
-
 You will see sample actions like adding, editing, removing, and searching for books printed in the terminal.
 
