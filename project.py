@@ -27,5 +27,30 @@ def remove_book(title):
         print(f"'{title}' removed from 'to_read' list.")
     elif title in book_collection["read"]:
         book_collection["read"].remove(title)
-        
-        
+        print(f"'{title}' removed from 'read' list.")
+    else:
+        print(f"'{title}' not found in any list.")
+
+def mark_as_read(title):
+    if title in book_collection["to_read"]:
+        book_collection["to_read"].remove(title)
+        book_collection["read"].add(title)
+        print(f"'{title}' removed from 'read' list.")
+    else:
+        print(f"'{title}' not found in any list.")
+
+def mark_as_read(title):
+    if title in book_collection["to_read"]:
+        book_collection["to_read"].remove(title)
+        book_collection["read"].add(title)
+        print(f"Marked '{title}' as read.")
+    else:
+        print(f"'{title}' is not in your to-read list.")
+
+def show_books():
+    print("\n📘 Books to Read:")
+    for b in book_collection["to_read"]:
+        print(" -", b)
+    print("\n✅ Books Read:")
+    for b in book_collection["read"]:
+        print(" -", b)
