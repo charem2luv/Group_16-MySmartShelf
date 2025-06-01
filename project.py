@@ -21,3 +21,4 @@ def edit_book(old_title, new_title):
         print(f"Updated '{old_title}' to '{new_title}' in 'read' list.")
     else:
         print(f"'{old_title}' not found in your collection.")
+def remove_book(title):
