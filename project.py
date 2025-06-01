@@ -49,11 +49,11 @@ def mark_as_read(title):
 
 def show_books():
     print("\n📘 Books to Read:")
-    for b in book_collection[toread"]:
-    print(" -", b)
-    print("\n✅ Books Read:")
-    for b in book_collection["read"]
-    print(" -", b)
+    for b in book_collection["to_read"]:
+        print(" -", b)
+        print("\n✅ Books Read:")
+        for b in book_collection["read"]:
+          print(" -", b)
     
 def low_stock_alert():
     if len(book_collection["to_read"]) < 2:
