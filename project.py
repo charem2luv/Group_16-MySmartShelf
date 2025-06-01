@@ -69,3 +69,15 @@ def search_book(title):
 def usage_summary():
     print("\n📊 Summary:")
     print(f"Books to Read {len(book_collection['to_read'])}")
+    print(f"Books Read: {len(book_collection['read'])}")
+    print(f"Total Books: {len(book_collection['to_read']) + len(book_collection['read'])}")
+
+# Example usage
+add_book("The 48 Laws of Power")
+mark_as_read("HTML")
+edit_book("Confession", "Crime and Punishment")
+remove_book("Go pro")
+search_book("Atomic Habits")
+show_books()
+usage_summary()
+low_stock_alert()
