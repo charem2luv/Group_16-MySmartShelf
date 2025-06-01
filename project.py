@@ -17,3 +17,4 @@ def edit_book(old_title, new_title):
         print(f"Updated '{old_title}' to '{new_title}' in 'to_read' list.")
     elif old_title in book_collection["read"]:
         book_collection["read"].remove(old_title)
+        book_collection["read"].add(new_title)
