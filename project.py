@@ -49,8 +49,23 @@ def mark_as_read(title):
 
 def show_books():
     print("\n📘 Books to Read:")
-    for b in book_collection["to_read"]:
+    for b in book_collection["toread"]:
         print(" -", b)
     print("\n✅ Books Read:")
     for b in book_collection["read"]:
-        print(" -", b)
+    print(" -", b)
+def low_stock_alert():
+    if len(book_collection["to_read"]) < 2
+        print("⚠️  Low stock alert: You have less than 2 books left to read!")
+
+def search_book(title):
+    if title in book_collection[to_read]:
+        print(f"'{title}' is in your to-read list.")
+    elif title in book_collection["read"]
+        print(f"'{title}' is in your read list.")
+    else
+    print(f"'{title}' not found in your collection.")
+
+def usage_summary():
+    print("\n📊 Summary:")
+    print(f"Books to Read {len(book_collection['to_read'])}")
