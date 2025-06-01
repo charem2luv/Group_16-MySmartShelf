@@ -72,6 +72,8 @@ def usage_summary():
     print(f"Books Read: {len(book_collection['read'])}")
     print(f"Total Books: {len(book_collection['to_read']) + len(book_collection['read'])}")
 
+
+
 add_book("The 48 Laws of Power")
 mark_as_read("HTML")
 edit_book("Confession", "Crime and Punishment")
