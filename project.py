@@ -25,4 +25,5 @@ def remove_book(title):
     if title in book_collection["to_read"]:
         book_collection["to_read"].remove(title)
         print(f"'{title}' removed from 'to_read' list.")
+    elif title in book_collection["read"]:
         
