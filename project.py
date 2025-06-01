@@ -22,3 +22,4 @@ def edit_book(old_title, new_title):
     else:
         print(f"'{old_title}' not found in your collection.")
 def remove_book(title):
+    if title in book_collection["to_read"]:
